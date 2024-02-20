@@ -248,7 +248,13 @@ section .contact-footer .footer-part .footer-right a{
     font-weight: 400;
     font-size: 24px;
 }
-
+@media(max-width:1260px) {
+    section {
+        padding-left: 20px;
+        padding-right: 20px;
+        overflow: hidden;
+    }
+}
 @media(max-width:1250px) {
      header nav{ 
         padding-left: 20px;
